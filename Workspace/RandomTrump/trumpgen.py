@@ -31,4 +31,7 @@ n_words = 30
 for i in range(n_words):
     chain.append(np.random.choice(word_dict[chain[-1]]))
 
-''.join(chain)
+#''.join(chain)
+
+
+print(' '.join(chain))
