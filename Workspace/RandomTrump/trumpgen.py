@@ -1,7 +1,7 @@
 import numpy as np
 
 #tweets sourced from http://www.trumptwitterarchive.com/archive
-realtweets = open('trumptweets', encoding='utf8').read()
+realtweets = open('realtweets.txt', encoding='utf8').read()
 
 corpus = realtweets.split()
 
